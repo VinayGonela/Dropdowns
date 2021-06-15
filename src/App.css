@@ -1,0 +1,82 @@
+html {
+  background-color: #c4abff;
+}
+
+.App {
+  display: flex;
+  justify-content: center;
+}
+
+.navbar {
+  margin-top: 8%;
+  width: 90%;
+}
+
+nav {
+  display: flex;
+  background-color: white;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+h2 {
+  cursor: pointer; 
+}
+
+.toggle {
+  background: transparent;
+  outline: none;
+  border: none;
+}
+
+.dropdownList {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.dropdownList > .actionLink{
+  border-bottom: 1px solid rgb(165 159 159);
+  width: 100%;
+}
+
+.dropdownList > .actionLink1{
+  border-bottom: 1px solid rgb(165 159 159);
+  width: 100%;
+}
+
+.dropdownList > .actionLink2{
+  border-bottom: 1px solid rgb(165 159 159);
+  width: 100%;
+}
+
+.dropdownList > .actionLink:last-child {
+  border-bottom: none;
+}
+
+.actionLink {
+  text-decoration: none;
+  color: black;
+  font-size: 1.5em;
+  padding: 0.8em 0.6em;
+  background-color: white;
+  cursor: pointer;
+}
+
+.actionLink1 {
+  text-decoration: none;
+  color: black;
+  padding: 0.8em 0.6em;
+  background-color: white;
+  margin-left: 1.84em;
+}
+
+.actionLink2 {
+  text-decoration: none;
+  color: black;
+  padding: 0.8em 0.6em;
+  background-color: white;
+  margin-left: 2.8em;
+}
